@@ -1,0 +1,170 @@
+[
+    {
+        "title": "Product A",
+        "image": "/temp/dummy-1.jpeg",
+        "variantColors": [
+            "#FF0000",
+            "#0000FF",
+            "#00FF00"
+        ],
+        "price": 29.99,
+        "rating": 4.5,
+        "reviewCount": 120
+    },
+    {
+        "title": "Product B",
+        "image": "/temp/dummy-1.jpeg",
+        "variantColors": [
+            "#000000",
+            "#FFFFFF",
+            "#808080"
+        ],
+        "price": 39.99,
+        "rating": 3.8,
+        "reviewCount": 85
+    },
+    {
+        "title": "Product C",
+        "image": "/temp/dummy-2.jpeg",
+        "variantColors": [
+            "#FFFF00",
+            "#800080",
+            "#FFA500"
+        ],
+        "price": 49.99,
+        "rating": 4.2,
+        "reviewCount": 95
+    },
+    {
+        "title": "Product D",
+        "image": "/temp/dummy-1.jpeg",
+        "variantColors": [
+            "#A52A2A",
+            "#FFC0CB",
+            "#008080"
+        ],
+        "price": 19.99,
+        "rating": 4.0,
+        "reviewCount": 75
+    },
+    {
+        "title": "Product E",
+        "image": "/temp/dummy-1.jpeg",
+        "variantColors": [
+            "#00FFFF",
+            "#FF00FF",
+            "#00FF00"
+        ],
+        "price": 59.99,
+        "rating": 4.8,
+        "reviewCount": 150
+    },
+    {
+        "title": "Product F",
+        "image": "/temp/dummy-2.jpeg",
+        "variantColors": [
+            "#4B0082",
+            "#EE82EE",
+            "#FFA500"
+        ],
+        "price": 34.99,
+        "rating": 4.6,
+        "reviewCount": 110
+    },
+    {
+        "title": "Product G",
+        "image": "/temp/dummy-1.jpeg",
+        "variantColors": [
+            "#FF0000",
+            "#0000FF",
+            "#00FF00"
+        ],
+        "price": 44.99,
+        "rating": 4.2,
+        "reviewCount": 90
+    },
+    {
+        "title": "Product H",
+        "image": "/temp/dummy-1.jpeg",
+        "variantColors": [
+            "#000000",
+            "#FFFFFF",
+            "#808080"
+        ],
+        "price": 29.99,
+        "rating": 3.9,
+        "reviewCount": 80
+    },
+    {
+        "title": "Product I",
+        "image": "/temp/dummy-1.jpeg",
+        "variantColors": [
+            "#FFFF00",
+            "#800080",
+            "#FFA500"
+        ],
+        "price": 24.99,
+        "rating": 4.7,
+        "reviewCount": 130
+    },
+    {
+        "title": "Product J",
+        "image": "/temp/dummy-2.jpeg",
+        "variantColors": [
+            "#A52A2A",
+            "#FFC0CB",
+            "#008080"
+        ],
+        "price": 54.99,
+        "rating": 4.3,
+        "reviewCount": 105
+    },
+    {
+        "title": "Product K",
+        "image": "/temp/dummy-1.jpeg",
+        "variantColors": [
+            "#00FFFF",
+            "#FF00FF",
+            "#00FF00"
+        ],
+        "price": 39.99,
+        "rating": 4.5,
+        "reviewCount": 115
+    },
+    {
+        "title": "Product L",
+        "image": "/temp/dummy-2.jpeg",
+        "variantColors": [
+            "#4B0082",
+            "#EE82EE",
+            "#FFA500"
+        ],
+        "price": 64.99,
+        "rating": 4.9,
+        "reviewCount": 160
+    },
+    {
+        "title": "Product M",
+        "image": "/temp/dummy-1.jpeg",
+        "variantColors": [
+            "#FF0000",
+            "#0000FF",
+            "#00FF00"
+        ],
+        "price": 49.99,
+        "rating": 4.1,
+        "reviewCount": 100
+    },
+    {
+        "title": "Product N",
+        "image": "/temp/dummy-1.jpeg",
+        "variantColors": [
+            "#000000",
+            "#FFFFFF",
+            "#808080"
+        ],
+        "price": 29.99,
+        "rating": 3.7,
+        "reviewCount": 70
+    }
+]

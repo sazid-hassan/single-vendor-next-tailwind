@@ -2,6 +2,7 @@ import Banner from "@/components/Banner";
 import ProductSection from "@/components/product-section/ProductSection";
 import data from "@/dummyData/data";
 import axios from "axios";
+import { useEffect } from "react";
 
 export async function getServerSideProps(context) {
   try {
@@ -24,8 +25,9 @@ export async function getServerSideProps(context) {
 }
 
 export default function Home({ DbProds }) {
+  console.log(DbProds);
   return (
-    <main className={`pt-4 dark:bg-gray-900 mx-[5%] `}>
+    <main className={`pt-4 bg-white m-auto dark:bg-gray-900 px-[5%]`}>
       <Banner />
 
       <ProductSection title={"Dummy Products"} data={data} />

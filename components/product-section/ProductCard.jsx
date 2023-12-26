@@ -1,12 +1,18 @@
 import Image from "next/image";
-import { MdOutlineFavoriteBorder } from "react-icons/md";
+import { useState } from "react";
+import { MdFavorite, MdOutlineFavoriteBorder } from "react-icons/md";
 
 const ProductCard = ({ data }) => {
-  console.log(data);
+  const [Favourite, setFavourite] = useState(false);
+
   return (
-    <div className="mb-4 relative">
+    <div className="mb-4 relative" onClick={() => setFavourite(!Favourite)}>
       <Image height={140} width={120} src={data.image} alt={data.title} />
-      <MdOutlineFavoriteBorder className=" absolute top-1 right-1 text-[#5768c2] rounded-lg p-0.5 cursor-pointer bg-white " />
+      {!Favourite ? (
+        <MdOutlineFavoriteBorder className=" absolute top-1 right-1 text-[#5768c2] rounded-lg p-0.5 cursor-pointer bg-white " />
+      ) : (
+        <MdFavorite className="absolute top-1 right-1 rounded-lg p-0.5 cursor-pointer bg-white text-[red]" />
+      )}
       <p>{data.title}</p>
       <div className="flex gap-1">
         {data.variantColors.map((color, index) => (

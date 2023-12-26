@@ -6,7 +6,7 @@ import { MdOutlineFavoriteBorder } from "react-icons/md";
 const Header = () => {
   return (
     <nav className="shadow-sm mb-1 ">
-      <div className="flex bg-gray-200 py-2 text-xs px-[5%] justify-between text-gray-500">
+      <div className="flex bg-gray-200 py-2 px-[5%] text-xs box-border justify-between text-gray-500">
         <p className="flex items-center gap-1">
           <CiLocationOn /> Chittagong
         </p>
